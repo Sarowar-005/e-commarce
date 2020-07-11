@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+nav img{
+    width: 200px;
+}
+.nav-item a{
+    font-weight: bold;
+}
+.slide-content1 {
+    position: absolute;
+    width: 400px;
+    top: 100px;
+    left: 125px;
+}
+
+.slide-content2, .slide-content3{
+    position: absolute;
+    width: 400px;
+    top: 100px;
+    left: 600px;
+}
+
+.feature-content {
+    position: absolute;
+    top: 35px;
+    z-index: 1;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+    color: white;
+    text-align: center;
+}
+.feature-sub{
+    text-decoration: underline;
+}
+
+.signle-feature{
+    transform: scale(1);
+    transition:all 1s;
+}
+.ttt{
+    transition: 1s;
+}
+.signle-feature:hover .ttt, .feature-content{
+    transform: scale(1.02);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.features .container{
+    border-bottom: 3px solid rgb(189, 189, 189);
+}
+.card{
+    border: none;
+}
+.card .desc{
+    font-size: 15px;
+    margin-top: -5px;
+}
+.card a{
+    border: 1px solid gray;
+    color:rgb(31, 31, 31)
+}
+.show-products{
+    border: 2px solid gray;
+    color: rgb(31, 31, 31);
+}
+
+.products .container{
+    padding-bottom: 20px;
+    border-bottom: 3px solid gray;
+    margin-bottom: 20px;
+}
+
+.band-banner{
+    margin: 40px 0px;
+    position: relative;
+    
+}
+
+
+.band-banner-content{
+    position: absolute;
+    width: 50%;
+    top: 20%;
+    right: 12%;
+    text-align: center;
+}
+
+.band-banner-content .title{
+    text-decoration: underline;
+}
+.band-banner-content h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.band-banner-content p{
+    font-size: 15px;
+}
+
+.band-link{
+    position: absolute;
+    bottom: 10%;
+    right: 12%;
+}
+.band-link a{
+    text-decoration: underline;
+    color: rgb(48, 48, 48);
+    font-size: 16px;
+    padding-left: 20px;
+
+}
+.unique{
+    font-family: 'Galada', cursive;
+}
+
+.collection-content{
+    position: absolute;
+    width: 340px;
+    top: 30%;
+    left: 50%;
+    margin-left: -170px;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+img{
+    transition: 1s;
+}
+.hovarable:hover img{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/*Subsribe section*/
+#subscribe{
+
+
+}
+.subscribe-content{
+    padding:20px;
+    text-align: center;
+}
+.subscribe-content p{
+    font-size: 15px;
+}
+.subcribe-input{
+    background-color: rgb(245, 243, 243);
+    padding: 40px 0px;
+}
+
+
+
+/* Contact Section*/
+#contact{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 20px 0px;
+}
+#contact h3{
+    font-size: 17px;
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+
+#contact a{
+    display:block;
+    color:white;
+    line-height: 30px;
+}
+
+#contact li{
+    list-style-type: none;
+    display: block;
+    color: white;
+    line-height: 30px;
+}
